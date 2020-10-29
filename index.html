@@ -8,20 +8,22 @@
     <title></title>
 </head>
 <body>
+    <!-- NAVBAR -->
     <div class="nav-container">
-        <h2 class="">Lyricalyze</h2>
+        <h2 class="" href="#home">Lyricalyze</h2>
         <div class="nav-link-container">
-        <a href="">Get Started</a>
-        <a href="">How to Use</a>
-        <a href="">About Us</a>
-        <button class="nav-button">Get Started</button>
-    </div>
+            <button class="nav-button"> <a href="#start">Get Started</a> </button>
+            <a href="#how-to">How to Use</a>
+            <a href="#about">About Us</a>
+        </div>
         <!-- <i class="material-icons">article</i> -->
     </div>
+    <!-- END NAVBAR -->
     
-    <div class="home-container">
-    <div class="home-sub-container">
-        <svg viewBox="0 0 1100 726" fill="none" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+    <!-- HOME PAGE -->
+    <div class="home-container" id="home">
+        <div class="home-sub-container">
+            <svg viewBox="0 0 1100 726" fill="none" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
             <g id="music" clip-path="url(#clip0)">
             <g id="background">
             <path id="Vector" d="M455.32 49.41C467.266 49.41 476.95 39.7259 476.95 27.78C476.95 15.8341 467.266 6.15002 455.32 6.15002C443.374 6.15002 433.69 15.8341 433.69 27.78C433.69 39.7259 443.374 49.41 455.32 49.41Z" fill="url(#paint0_linear)"/>
@@ -281,16 +283,51 @@
             </defs>
             </svg>
             
+        </div>
+        <div class="home-sub-container">
+            <h1 class="title">Lyricalyze</h1>
+            <h3 class="description">Add song lyrics to analyze trends or <br> have a new song generated <br> from a machine learning algorithm</h3>
+            <button class="main-button">Get Started</button>
+        </div>
     </div>
-    <div class="home-sub-container">
-        <h1 class="title">Lyricalyze</h1>
-        <h3 class="description">Add song lyrics to analyze trends or <br> have a new song generated <br> from a machine learning algorithm</h3>
-        <button class="main-button">Get Started</button>
-    </div>
-</div>
+    <!-- END HOME PAGE-->
 
-    <div class="start-container">
+    <!-- GET STARTED PAGE-->
+    <div class="start-container" id="start">
+        <div class="start-sub-container">
+            <h1>Input url's of<br>song lyrics to<br>add to the dataset</h1>
+            <input type="text" placeholder="Enter url...">
+        </div>
+
+        <div class="start-sub-container">
+            <ul>
+                <li>Song Name by Artist</li>
+                <li>Song Name by Artist</li>
+                <li>Song Name by Artist</li>
+                <li>Song Name by Artist</li>
+                <li>Song Name by Artist</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
     </div>
+    <!-- END GET STARTED PAGE-->
+
+    <!-- HOW-TO PAGE -->
+    <div class="how-to-container" id="how-to">
+
+    </div>
+    <!-- HOW-TO PAGE -->
+
+    <!-- ABOUT US PAGE-->
+    <div class="about-container" id="about">
+
+    </div>
+    <!-- END ABOUT US PAGE-->
 
     <script src="js/app.js"></script>
 </body>
